@@ -208,7 +208,7 @@ function stopZen() {
     settingsButton.style.display = "flex";
 
     settingsMenu.classList.remove("show");
-    settingsMenu.style.display = "block";
+    settingsMenu.style.display = "flex";
 
     setTimeout(() => {
         container.style.opacity = "1";
