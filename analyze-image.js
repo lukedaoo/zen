@@ -37,7 +37,7 @@ export function getDominantColor(imageUrl) {
 
             // Calculate average color for overall brightness assessment
             let totalR = 0, totalG = 0, totalB = 0, count = 0;
-            for (let i = 0; i < data.length; i += 4) { 
+            for (let i = 0; i < data.length; i += 4) {
                 totalR += data[i];
                 totalG += data[i + 1];
                 totalB += data[i + 2];
